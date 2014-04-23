@@ -38,8 +38,7 @@ img {
 header {
     background-color: #000;
     overflow: hidden;
-    position: fixed;
-    width: 100%;
+    position: 
 }
 
 .logo {
@@ -59,27 +58,29 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: white;
-    background-position: bottom
+    height: 17.5rem;
 }
 
 h1 {
-    margin: 2rem 0 4.5rem 0;
+    margin: 2rem 0 0;
     padding: .34rem 5%;
-    font-weight: 100;
-    font-size: 4rem;
-    line-height: 3.5rem;
-    letter-spacing: .05rem;
-    color: black;
-    display: block;
-    width: 50%;
-    font-family: "Yanone Kaffeesatz",  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: lighter;
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: -.1rem;
+    color: black;
+    width: 40%;
 }
 
-h4 {
+h2 {
     margin: 0;
     padding: 0;
     font-size: 1.2rem;
+}
+
+h1 strong {
+    font-weight: bold;
+    font-size: 4rem;
 }
 
 /* Article */
@@ -94,6 +95,32 @@ article {
 p {
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+.container {
+    margin: 3rem 0;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.container p {
+    padding: 0;
+    margin: 0;
+}
+
+.float-left {
+    padding: 0 5% 0 0;
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+.float-right {
+    padding: 0 0 0 5%;
+    display: block;
+    float: right;
+    width: 60%;
 }
 
 /* Toggle (hamburger) */
@@ -151,8 +178,8 @@ p {
 h3 {
     margin: 0;
     padding: 0;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
     font-family: "Yanone Kaffeesatz",  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
 }
@@ -197,12 +224,13 @@ h3 + p {
 
 /* Featured Items Homepage */
 
-h2 {
-    margin: 3rem 0 1rem;
+h4 {
+    margin: 2rem 0 1rem;
     border-bottom: solid .5rem #F4E6E6;
     font-family: "Yanone Kaffeesatz",  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: normal;
     font-size: 3rem;
+    
 }
 
 .featured-block { 
@@ -267,7 +295,7 @@ h5 {
     padding: 0;
 }
 
-/* --------- Footer --------- */
+/* Footer */
 
 footer {
     margin: 0;
@@ -287,7 +315,6 @@ footer {
     margin: 0;
     padding: 1.5rem 5% 4em;
     color: white;
-    font-weight: lighter;
     text-align: center;
     background-color: black;
 }
