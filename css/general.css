@@ -404,9 +404,10 @@ footer a:hover {
 
 
 .ccontainer {
-    margin-top:5px;
+    margin-top: 0;
     margin-left: 0;
-    overflow: hidden;
+    height: auto;
+    display: block;
 }
 
 .ccontainer li {
