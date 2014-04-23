@@ -42,6 +42,7 @@ a:link, a:visited, a:active {
 header {
     background-color: #000;
     overflow: hidden;
+    height: 4.3rem;
 }
 
 .logo {
