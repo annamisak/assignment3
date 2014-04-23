@@ -217,6 +217,12 @@ h2 {
     margin: 0 10% 2rem 0;
     padding: 0;
     font-weight: bolder;
+    color: #E88797;
+    text-decoration: none;
+}
+
+.featured-block a:hover {
+    color: #F4A460;
 }
 
 .featured-block a:nth-child(even) {
