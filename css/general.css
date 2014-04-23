@@ -409,9 +409,9 @@ footer a:hover {
     overflow: hidden;
 }
 
-.ccontainer ul {
-			color: #E59934;
-		}
+.ccontainer li {
+    line-height: 4rem;
+}
 
 .ccontainer ul li {
 			margin: 2%;
@@ -420,9 +420,4 @@ footer a:hover {
 			float: left;	
 			border: 0px solid lightgray;
 			list-style:none;
-			
-		}
-
-.ccontainer ul li:hover {
-			border: 1px solid orange;
-		}
+}
