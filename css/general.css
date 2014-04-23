@@ -33,6 +33,10 @@ img {
     display: block;
 }
 
+a:link, a:visited, a:active {
+    color: #E88797;
+}
+
 /* Header */
 
 header {
@@ -360,7 +364,7 @@ footer {
     background-color: black;
 }
 
-footer a {
+footer a, a:link, a:visited {
     color: #E88797;
     text-decoration: none;
 }
