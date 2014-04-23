@@ -135,6 +135,10 @@ li {
     background-color: #F3EBD5;
 }
 
+strong {
+    font-weight: bold;
+}
+
 .container {
     margin: 3rem 0;
     width: 100%;
