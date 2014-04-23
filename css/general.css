@@ -127,7 +127,7 @@ article {
 h1 {
     margin: 0 0;
     padding: .34rem 5%;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 3rem;
     line-height: 3rem;
     letter-spacing: -.1rem;
