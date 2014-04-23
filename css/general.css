@@ -185,10 +185,10 @@ h5 {
 
 hr {
     margin: 3rem 0;
-    background-image: url(../images/dotted-bg.jpg);
-    background-size: 1rem;
+    background-image: url(../images/dotted.svg);
+    background-size: .7rem;
     border: 0;
-    height: 6px;
+    height: 8px;
 }
 
 p {
