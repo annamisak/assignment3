@@ -102,7 +102,7 @@ p {
     width: 46px;
 	overflow: hidden;
     position: absolute;
-    top: 24px;
+    top: 1rem;
     right: 5%;
 	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
 	text-indent: 100%;
