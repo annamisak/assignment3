@@ -248,32 +248,23 @@ hr {
 
 h5 {
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight: 200;
     text-align: center;
 }
 
-.outer {
-    position: relative;
+.social-network {
+    margin: 1rem 0 1rem;
+    padding: 0 5%;
     overflow: hidden;
-    height: 6rem;
+    list-style: none;
+    width: auto
 }
 
-.box {
-    position: absolute;
-    width: 25%;
-    height: 100%;
-}
-
-.facebook {
-    left: 0;
-}
-
-.twitter {
-    left: 33.3%;
-}
-
-.pinterest {
-    left: 66.6%;
+.social-network li {
+    float: left;
+    width: 20%;
+    margin: 0 10% 0 0;
+    padding: 0;
 }
 
 /* --------- Footer --------- */
