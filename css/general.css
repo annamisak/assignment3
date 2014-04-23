@@ -42,12 +42,12 @@ a:link, a:visited, a:active {
 header {
     background-color: #000;
     overflow: hidden;
-    height: auto;
 }
 
 .logo {
     display: block;
-    width: 8.5rem;
+    height: 2.4rem;
+    width: 9rem;
     margin: 1rem 5%;
 }
 
