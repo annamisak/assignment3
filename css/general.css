@@ -114,6 +114,10 @@ li {
     line-height: 1.5rem;
 }
 
+.red {
+    color: red;
+}
+
 .container {
     margin: 3rem 0;
     width: 100%;
