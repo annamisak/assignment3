@@ -42,8 +42,8 @@ header {
 
 .logo {
     display: block;
-    width: 5rem;
-    margin: 1.5rem 5%;
+    width: 3rem;
+    margin: 1rem 5%;
 }
 
 /*--------------Billboard------------*/
@@ -60,12 +60,14 @@ header {
 }
 
 h1 {
-    margin: 4rem 0 4rem 0;
+    margin: 2rem 0 4rem 0;
     padding: .34rem 5%;
     font-weight: 100;
     font-size: 3rem;
     letter-spacing: .05rem;
     color: black;
+    display: block;
+    width: 50%;
 }
 
 /* Article */
@@ -111,7 +113,7 @@ p {
 
 .nav-top {
 	max-height: 0; /* makess invisible by default */
-    background-color: pink;
+    background-color: #F4CBCB;
     
     /* Animation on open */
 
@@ -157,24 +159,24 @@ h3 + p {
 }
 
 .new {
-    margin: 3rem 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     padding: 5%;
-    background-color: yellow;
+    background-color: #F4E6E6;
     overflow: hidden;
 }
 
 .best {
     margin: 0;
     padding: 5%;
-    background-color: pink;
-    overflow: hidden;
-    
+    background-color: #F3EBD5;
+    overflow: hidden;  
 }
 
 .img-float {
     float: left;
     display: block;
-    width: 25%;
+    width: 40%;
     padding: 0;
     margin: 0;
     overflow: auto;
@@ -185,12 +187,53 @@ h3 + p {
     padding: 0 0 0;
     float: right;
     display: block;
-    width: 70%;
+    width: 55%;
     overflow: auto;
     top: 0;
 }
 
+
+/* Featured Items Homepage */
+
+h2 {
+    margin: 3rem 0 1rem;
+    border-bottom: solid .5rem #F4E6E6;
+}
+
+.featured-block { 
+    overflow:  hidden;
+}
+
+.featured-block figure {
+    margin: 0;
+    padding: 0;
+}
+
+.featured-block a,
+.featured-block a:link,
+.featured-block a:visited {
+    float: left;
+    width: 45%;
+    margin: 0 10% 2rem 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.featured-block a:nth-child(even) {
+    margin: 0;     
+}
+
+.bucket1 figcaption {;
+    font-weight: bolder
+}
+
 /* Social Network */
+
+hr {
+    background-image: url(../images/dotted-bg.jpg);
+    border: 0;
+    height: 6px;
+}
 
 h5 {
     font-size: 1rem;
@@ -212,49 +255,46 @@ h5 {
 
 .one {
     left: 0;
-    background: red;
 }
 
 .two {
     left: 33.3%;
-    background: cyan;
 }
 
 .three {
     left: 66.6%;
-    background: purple;
 }
 
 /* --------- Footer --------- */
 
 footer {
     margin: 0;
-    padding: 0 0 4rem;
+    padding: 0;
     overflow: hidden;
     background-color: black;
 }
 
 .footer-top {
     margin: 0;
-    padding: 1.5rem 5% 2rem;
+    padding: 5% 1rem;
     text-align: center;
-    background-color: grey;
+    background-color: #D8D8D8;
 }
 
 .footer-bottom {
     margin: 0;
-    padding: 1.5rem 5%;
+    padding: 1.5rem 5% 4rem;
     color: white;
     font-weight: lighter;
     text-align: center;
 }
 
 footer a {
-    color: #05b4b4;
+    color: #E88797;
     text-decoration: none;
 }
 
 footer a:hover {
     color: #F4A460;
-    text-decoration: underline;
+    text-decoration: none;
 }
