@@ -33,7 +33,7 @@ img {
     display: block;
 }
 
-/*--------------Header------------*/
+/* Header */
 
 header {
     background-color: #000;
@@ -48,11 +48,11 @@ header {
     margin: 1rem 5%;
 }
 
-/*--------------Billboard------------*/
+/* Billboard */
 
 .billboard {
     margin: 0;
-    padding-top: 4.3rem;
+    padding-top: 4rem;
     overflow: hidden;
     background-image: url(../images/leer.jpg);
     background-color: brown;
@@ -63,14 +63,23 @@ header {
 }
 
 h1 {
-    margin: 2rem 0 4rem 0;
+    margin: 2rem 0 4.5rem 0;
     padding: .34rem 5%;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 4rem;
+    line-height: 3.5rem;
     letter-spacing: .05rem;
     color: black;
     display: block;
     width: 50%;
+    font-family: "Yanone Kaffeesatz",  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: lighter;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
 }
 
 /* Article */
@@ -80,15 +89,6 @@ article {
     overflow: hidden;
     background-color: white;
     padding: 5%;
-}
-
-h2 {
-    margin-top: 0;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-weight: normal;
-    font-size: 3rem;
-    line-height: 3rem;
-    letter-spacing: -.1rem;
 }
 
 p {
@@ -153,12 +153,12 @@ h3 {
     padding: 0;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    font-weight: lighter;
+    font-family: "Yanone Kaffeesatz",  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
 }
 
 h3 + p {
-    margin: 0;
-    
+    margin: 0;   
 }
 
 .new {
@@ -195,12 +195,14 @@ h3 + p {
     top: 0;
 }
 
-
 /* Featured Items Homepage */
 
 h2 {
     margin: 3rem 0 1rem;
     border-bottom: solid .5rem #F4E6E6;
+    font-family: "Yanone Kaffeesatz",  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
 }
 
 .featured-block { 
@@ -253,24 +255,24 @@ h5 {
 .outer {
     position: relative;
     overflow: hidden;
-    height: 5rem;
+    height: 6rem;
 }
 
 .box {
     position: absolute;
-    width: 5rem;
-    height: 5rem;
+    width: 25%;
+    height: 100%;
 }
 
-.one {
+.facebook {
     left: 0;
 }
 
-.two {
+.twitter {
     left: 33.3%;
 }
 
-.three {
+.pinterest {
     left: 66.6%;
 }
 
@@ -280,22 +282,23 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
 }
 
 .footer-top {
     margin: 0;
-    padding: 5% 1rem;
+    padding: 1rem 5% 0;
     text-align: center;
     background-color: #D8D8D8;
+    height: 6rem;
 }
 
 .footer-bottom {
     margin: 0;
-    padding: 1.5rem 5% 4rem;
+    padding: 1.5rem 5% 4em;
     color: white;
     font-weight: lighter;
     text-align: center;
+    background-color: black;
 }
 
 footer a {
