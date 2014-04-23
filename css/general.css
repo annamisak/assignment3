@@ -42,7 +42,7 @@ a:link, a:visited, a:active {
 header {
     background-color: #000;
     overflow: hidden;
-    height: 4.3rem;
+    height: auto;
 }
 
 .logo {
@@ -66,14 +66,14 @@ header {
 }
 
 h1 {
-    margin: 2rem 0 0;
+    margin: 0 0;
     padding: .34rem 5%;
     font-weight: lighter;
     font-size: 3rem;
     line-height: 3rem;
     letter-spacing: -.1rem;
     color: black;
-    width: 40%;
+    width: 55%;
 }
 
 h2 {
