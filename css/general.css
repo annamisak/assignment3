@@ -118,6 +118,18 @@ li {
     color: red;
 }
 
+.pink {
+    margin: 1rem 0;
+    padding: 3% 5%;
+    background-color: #F4E6E6;
+}
+
+.cream {
+    margin: 1rem 0;
+    padding: 3% 5%;
+    background-color: #F3EBD5;
+}
+
 .container {
     margin: 3rem 0;
     width: 100%;
