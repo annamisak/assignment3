@@ -105,7 +105,7 @@ header {
 
 .billboard {
     margin: 0;
-    padding-top: 3.5rem;
+    padding-top: 5.5rem;
     overflow: hidden;
     background-image: url(../images/leer.jpg);
     background-color: brown;
@@ -113,6 +113,16 @@ header {
     background-size: 100%;
     background-color: white;
     height: 17.5rem;
+}
+
+.about {
+    background-image: url(../images/about-us.jpg);
+    padding-top: 2.5rem;
+}
+
+.purses {
+    background-image: url(../images/purses.jpg);
+    padding-top: 8.5rem;
 }
 
 /* Article */
@@ -160,7 +170,7 @@ h3 + p {
 }
 
 h4 {
-    margin: 2rem 0 1rem;
+    margin: 1rem 0 1rem;
     border-bottom: solid .5rem #F4E6E6;
     font-family: "Yanone Kaffeesatz",  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: normal;
@@ -190,10 +200,6 @@ p {
     hyphens: auto;
 }
 
-ul {
-    margin-bottom: 3rem;
-}
-
 li {
     line-height: 1.5rem;
 }
@@ -209,14 +215,18 @@ li {
 
 .pink {
     margin: 1rem 0;
-    padding: 3% 5%;
+    padding: 4% 5% 1%;
     background-color: #F4E6E6;
 }
 
 .cream {
-    margin: 1rem 0;
-    padding: 3% 5%;
+    margin: 1rem 0 2rem;
+    padding: 4% 5% 1%;
     background-color: #F3EBD5;
+}
+
+.white {
+    color: white;
 }
 
 strong {
@@ -226,7 +236,7 @@ strong {
 /* About LEER */
 
 .container {
-    margin: 3rem 0;
+    margin: 2.5rem 0 0;
     width: 100%;
     height: auto;
     overflow: auto;
@@ -372,6 +382,10 @@ strong {
 }
 
 /* Footer */
+
+.hr-footer {
+    margin: 1.5rem 0 0;
+}
 
 footer {
     margin: 0;
